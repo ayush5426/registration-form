@@ -1,0 +1,35 @@
+p{
+    font-family: 'Brush Script MT', 'Lucida Handwriting', 'cursive';
+    font-size: 40px;
+    color: #f3ba6b;
+    display:flex;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+}
+div{
+    display:flex;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-size: 200%;
+    justify-content: center;
+    align-items: center;
+    height:63vh;
+    
+    
+}
+body{
+    
+    background-color:beige;
+    
+}
+h1{
+    color: #f1a234;
+}
+a{
+    align-items:normal;
+}

@@ -1,0 +1,53 @@
+form{
+    text-align: center;
+    
+}
+body{
+    background-color:beige;
+}
+div{
+    text-align: center;
+}
+::placeholder{
+    background-color:rgb(236, 236, 214);
+    border-radius: 3px;
+}
+button{
+    background-color: #f3ba6b;
+}
+span{
+    color: red;
+}
+button{
+    border-radius: 6px;
+    border-color:#d69e4f ;
+    height: 35px;
+    font-size: 15px;
+}
+input{
+    border-color:#e8cf92 ;
+    background-color:#e8cf92 ;
+    color: #8f4c05;
+    outline:2px solid #e8cf92;
+    border-radius: 4px;
+}
+input:focus{
+    background-color:#f1deaf ;
+    color: #8f4c05;
+    outline:2px solid #e8cf92;
+}
+input[type="radio"]{
+    appearance: none;
+    -webkit-appearance: none ;
+    width: 11px;
+    height:11px;
+    border: 0.5px solid #e8cf92;
+     background-color:#f0e8d2 ;
+     border-radius: 50%;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+input[type="radio"]:checked{
+    background-color: #dfb342;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>STUDENT/EMPLOYEE REGISTRTION FORM</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+</head>
+<body>
+    
+    <a href="https://www.akgec.ac.in/" target="main"><img src="A.png" height="120"></a>
+    <div class="form-container">
+        <h1><b>STUDENT/EMPLOYEE REGISTRATION FORM
+            </b></h1>
+    <form action="thank_you_page.html" method="post">
+        <label><b>DESIGNATION</b></label>
+        <br>
+        
+        
+        
+<div class="role-selector">
+     <input type="radio" name="user-role" id="role-student" class="role-input" required>
+      <label for="role-student" class="role-label">🎓 I AM A STUDENT</label>
+     
+      <br>
+      <input type="radio" name="user-role" id="role-employee" class="role-input" required>
+      <label for="role-employee" class="role-label">💼 I AM AN EMPLOYEE</label>
+    </div>
+        
+        
+        <br>
+        <div id="student-form-section" class="conditional-form">
+      <div class="form-group">
+        <label>FIRST NAME</label>
+        <br>
+        <input type="text" size="50" placeholder="FIRST NAME" required>
+        <br><br>
+        <label>MIDDLE NAME</label>
+        <br>
+        <input type="text" size="50" placeholder="MIDDLE NAME">
+        <br><br>
+        <label>LAST NAME</label>
+        <br>
+        <input type="text" size="50" placeholder="LAST NAME" required>
+        <br><br>
+        <label>PHONE NUMBER</label>
+        <br>
+        <input type="tel" maxlength="10" size="50" placeholder="PHONE NUMBER" required>
+        <br><br>
+        <label>EMAIL ADDRESS</label>
+        <br>
+        <input type="email" size="50" placeholder="EMAIL ADDRESS" required>
+        <br><br>
+        <label>WHICH COURSE ARE YOU LOOKING FOR<span>*(only for student)</span>
+        <br>
+            <input type="radio" value="B.Tech" name="WHICH COURSE ARE YOU LOOKING FOR" id="101" required>
+            <label for="101">B.Tech</label>
+            <input type="radio" value="B.Sc" name="WHICH COURSE ARE YOU LOOKING FOR" id="102" required>
+            <label for="102">B.Sc</label>
+            <input type="radio" value="B.S Nursing" name="WHICH COURSE ARE YOU LOOKING FOR" id="103" required>
+            <label for="103">B.S Nursing</label>
+            
+        <br><br>
+        <label>CHOOSE WHAT YOU PREFER<span>*(only for employees)</span></label>
+        <br>
+            <input type="radio" value="FULL TIME" name="WHICH COURSE ARE YOU LOOKING FOR" id="201" required>
+            <label for="201">FULL TIME</label>
+            <input type="radio" value="HALF TIME" name="WHICH COURSE ARE YOU LOOKING FOR" id="202" required>
+            <label for="202">HALF TIME</label>
+            </label>
+         </div>
+         <br><br>
+      <button type="submit" style="width:22% ; max-width:150" class="submit-btn">Submit Records</button>
+    </div>
+    </form>
+    </div>
+</body>
+</html>
